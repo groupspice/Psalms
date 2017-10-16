@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>Psalms_Sampler</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=33";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=34",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=33";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=34" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> Leader’s Notes5. God set his glory above the heavens. Nothing beneath them can praise him adequately. There is always a sense of wonder and awe at what God has placed outside or beyond our realm.6. When wondering at the magni cence of creation, we cannot help but be reminded how small we are in the midst of such greatness. This realization of our own smallness brings us to a place of awe at the greatness of the Creator. We desperately need to cultivate awe before God, because awe helps us see things in perspective. It protects us from pride and from the foolish things we believe and do because of pride.7. The works of God’s hands include everything he created. That could mean that all of planet Earth is our playground to exploit as we like. But is that the way God expects authorities to behave? More likely, planet Earth is our responsibility to care for.8. We must remove ourselves from the busyness of life to focus on and con- template God’s creation: walk on the beach and consider the vastness of the ocean, go on a hike in the mountains, take a nature walk, look at the sky on a cloudless night.9. The two types of help identi ed in this psalm are a refuge or fortress where we can run to  nd shelter from the storm and inner strength with which we can endure our calamity.10. We are the favored people of God over whom God pours his blessings today. We take refuge in him.11. He will conquer enemy nations and restore peace and security to the nation of Israel. He will receive honor and glory.DevelopingThis section enables you to help the group see the importance of devel- oping their abilities for service to God.14. Questions 14, 15: Spiritual partners will pair up during group time and/ or through the week and use the Personal Health Plan to record plans and progress throughout our study of Psalms. For many, spiritual partners will be a new idea, but we highly encourage you to try them for this study. It’s hard to start a spiritual practice like prayer or consistent Bible reading with no support. A friend makes a huge di erence.We recommend that men partner with men and women partner with women. Partners can check in with each other weekly either during your group meetings or outside the meeting. As leader, you may want to prayer- fully decide who would be a good match with whom. Try to discern who might have good relational chemistry that may lead to a deeper connection.77 </noscript> 
+ </body>
+</html>
